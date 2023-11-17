@@ -3,7 +3,7 @@
     {
       "id": "1",
       "nombre": "Buenos Aires",
-      "localidades": [
+      "regiones": [
         {
           "id": "1",
           "nombre": "La Plata",
@@ -91,7 +91,7 @@
     {
       "id": "2",
       "nombre": "Córdoba",
-      "localidades": [
+      "regiones": [
         {
           "id": "3",
           "nombre": "Córdoba Capital",
@@ -162,16 +162,6 @@
       ]
     }
   ],
-  "provincias": [
-    { "id": 1, "nombre": "Buenos Aires" },
-    { "id": 2, "nombre": "Córdoba" }
-  ],
-  "localidades": [
-    { "id": 1, "nombre": "La Plata", "provinciaId": 1 }, 
-    { "id": 2, "nombre": "Mar del Plata", "provinciaId": 1 },
-    { "id": 3, "nombre": "Córdoba Capital", "provinciaId": 2 }, 
-    { "id": 4, "nombre": "Villa María", "provinciaId": 2 }
-  ],
   "escuelas": [
     { "id": 1, "nombre": "Escuela Primaria San Martín" },
     { "id": 2, "nombre": "Escuela Nuestra Señora de Luján" },
@@ -192,16 +182,13 @@
     { "id": 2, "nombre": "Renovación Nacional" },
     { "id": 3, "nombre": "Alianza Progresista" },
     { "id": 4, "nombre": "Unión Democrática" },
-    { "id": 5, "nombre": "Esperanza Ciudadana" },
-    { "id": 6, "nombre": "Acción Popular" }
+    { "id": 5, "nombre": "Esperanza Ciudadana" }
   ],
   "candidatos": [
     { "id": 1, "nombre": "Lionel Messi", "partidoPoliticoId": 1 },
     { "id": 2, "nombre": "Cristiano Ronaldo", "partidoPoliticoId": 2 },
     { "id": 3, "nombre": "Neymar Jr.", "partidoPoliticoId": 3 },
     { "id": 4, "nombre": "Sergio Ramos", "partidoPoliticoId": 4 },
-    { "id": 5, "nombre": "Kylian Mbappé", "partidoPoliticoId": 5 },
-    { "id": 6, "nombre": "Robert Lewandowski", "partidoPoliticoId": 6 }
+    { "id": 5, "nombre": "Kylian Mbappé", "partidoPoliticoId": 5 }
   ]
 }
-

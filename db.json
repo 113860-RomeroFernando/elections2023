@@ -152,75 +152,6 @@
         ]
       }
     ]
-  },{
-    "id": "4",
-    "localidades": [
-      {
-        "id": "7",
-        "centrosDeVotacion": [
-          {
-            "id": "11",
-            "mesas": [
-              {
-                "numero": 1,
-                "votos": [
-                  { "candidatoId": 1, "cantidad": 120 },
-                  { "candidatoId": 2, "cantidad": 100 },
-                  { "candidatoId": 3, "cantidad": 80 },
-                  { "candidatoId": 4, "cantidad": 60 },
-                  { "candidatoId": 5, "cantidad": 40 }
-                ]
-              },
-              {
-                "numero": 2,
-                "votos": [
-                  { "candidatoId": 1, "cantidad": 110 },
-                  { "candidatoId": 2, "cantidad": 90 },
-                  { "candidatoId": 3, "cantidad": 70 },
-                  { "candidatoId": 4, "cantidad": 50 },
-                  { "candidatoId": 5, "cantidad": 30 }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "12",
-            "mesas": [
-              {
-                "numero": 1,
-                "votos": [
-                  { "candidatoId": 1, "cantidad": 130 },
-                  { "candidatoId": 2, "cantidad": 110 },
-                  { "candidatoId": 3, "cantidad": 90 },
-                  { "candidatoId": 4, "cantidad": 70 },
-                  { "candidatoId": 5, "cantidad": 50 }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "8",
-        "centrosDeVotacion": [
-          {
-            "id": "13",
-            "mesas": [
-              {
-                "numero": 1,
-                "votos": [
-                  { "candidatoId": 1, "cantidad": 100 },
-                  { "candidatoId": 2, "cantidad": 80 },
-                  { "candidatoId": 3, "cantidad": 60 },
-                  { "candidatoId": 4, "cantidad": 40 },
-                  { "candidatoId": 5, "cantidad": 20 }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
   }
  ],
   "escuelas": [
@@ -240,16 +171,13 @@
   ],
   "provincias": [
     { "id": 1, "nombre": "Buenos Aires" },
-    { "id": 2, "nombre": "Córdoba" },
-    { "id": 3, "nombre": "Mendoza" }
+    { "id": 2, "nombre": "Córdoba" }
   ],
   "localidades": [
     { "id": 1, "nombre": "La Plata", "provinciaId": 1 }, 
     { "id": 2, "nombre": "Mar del Plata", "provinciaId": 1 },
     { "id": 3, "nombre": "Córdoba Capital", "provinciaId": 2 }, 
-    { "id": 4, "nombre": "Villa María", "provinciaId": 2 },
-    { "id": 5, "nombre": "Mendoza Capital", "provinciaId": 4 },
-    { "id": 6, "nombre": "San Rafael", "provinciaId": 4 }
+    { "id": 4, "nombre": "Villa María", "provinciaId": 2 }
   ],
   "partidosPoliticos": [
     { "id": 1, "nombre": "Futuro Brillante" },

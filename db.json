@@ -1,5 +1,5 @@
 {
-  "provincias": [
+  "votos": [
     {
       "id": "1",
       "nombre": "Buenos Aires",
@@ -161,6 +161,16 @@
         }
       ]
     }
+  ],
+  "provincias": [
+    { "id": 1, "nombre": "Buenos Aires" },
+    { "id": 2, "nombre": "Córdoba" }
+  ],
+  "localidades": [
+    { "id": 1, "nombre": "La Plata", "provinciaId": 1 }, 
+    { "id": 2, "nombre": "Mar del Plata", "provinciaId": 1 },
+    { "id": 3, "nombre": "Córdoba Capital", "provinciaId": 2 }, 
+    { "id": 4, "nombre": "Villa María", "provinciaId": 2 }
   ],
   "escuelas": [
     { "id": 1, "nombre": "Escuela Primaria San Martín" },
